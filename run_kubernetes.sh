@@ -13,3 +13,5 @@ kubectl get pods
 # Step 4:
 # Forward the container port to a host
 kubectl port-forward pod/microservice 8089:80
+# Make prediction
+./make_prediction.sh
